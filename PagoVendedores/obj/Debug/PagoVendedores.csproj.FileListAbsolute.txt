@@ -1,0 +1,9 @@
+C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\bin\Debug\PagoVendedores.exe.config
+C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\bin\Debug\PagoVendedores.exe
+C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\bin\Debug\PagoVendedores.pdb
+C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.frmPrincipal.resources
+C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.Properties.Resources.resources
+C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.csproj.GenerateResource.Cache
+C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.exe
+C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.pdb
+C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.csprojResolveAssemblyReference.cache
