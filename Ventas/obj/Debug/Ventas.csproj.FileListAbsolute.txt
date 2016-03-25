@@ -1,0 +1,14 @@
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\bin\Debug\Ventas.exe.config
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\bin\Debug\Ventas.exe
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\bin\Debug\Ventas.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\bin\Debug\Interop.WMPLib.dll
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\bin\Debug\AxInterop.WMPLib.dll
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Interop.WMPLib.dll
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\AxInterop.WMPLib.dll
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.csproj.ResolveComReference.cache
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.frmVenta.resources
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.Properties.Resources.resources
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.csproj.GenerateResource.Cache
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.exe
+c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.pdb
