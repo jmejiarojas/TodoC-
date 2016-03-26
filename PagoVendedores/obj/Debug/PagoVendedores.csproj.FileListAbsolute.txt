@@ -7,3 +7,6 @@ C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\Pago
 C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.exe
 C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.pdb
 C:\Users\USUARIO\documents\visual studio 2015\Projects\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.csprojResolveAssemblyReference.cache
+C:\VideoClases\SolucionTotal_Videos\PagoVendedores\bin\Debug\PagoVendedores.exe.config
+C:\VideoClases\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.exe
+C:\VideoClases\SolucionTotal_Videos\PagoVendedores\obj\Debug\PagoVendedores.pdb
