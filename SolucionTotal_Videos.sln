@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas", "Ventas\Ventas.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagoVendedores", "PagoVendedores\PagoVendedores.csproj", "{068A56EC-F53B-4841-810B-D950E3705F12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagoSueldosHerencia", "PagoSueldosHerencia\PagoSueldosHerencia.csproj", "{FDF5E12D-DB69-413D-957B-F908E73F45FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{068A56EC-F53B-4841-810B-D950E3705F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{068A56EC-F53B-4841-810B-D950E3705F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{068A56EC-F53B-4841-810B-D950E3705F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF5E12D-DB69-413D-957B-F908E73F45FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF5E12D-DB69-413D-957B-F908E73F45FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF5E12D-DB69-413D-957B-F908E73F45FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF5E12D-DB69-413D-957B-F908E73F45FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
