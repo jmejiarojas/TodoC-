@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Asalariado.cs" />
+    <Compile Include="Comision.cs" />
     <Compile Include="Empleado.cs" />
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>

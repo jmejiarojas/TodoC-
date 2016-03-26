@@ -1,0 +1,9 @@
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\bin\Debug\PagoSueldosHerencia.exe.config
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\bin\Debug\PagoSueldosHerencia.exe
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\bin\Debug\PagoSueldosHerencia.pdb
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.csprojResolveAssemblyReference.cache
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.frmPrincipal.resources
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.Properties.Resources.resources
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.csproj.GenerateResource.Cache
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.exe
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.pdb
