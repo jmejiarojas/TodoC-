@@ -16,7 +16,7 @@ namespace ElectraSAC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmContado());
+            Application.Run(new frmCredito());
         }
     }
 }

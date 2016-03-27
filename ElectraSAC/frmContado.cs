@@ -52,6 +52,7 @@ namespace ElectraSAC
             Contado objContado = new Contado();
             //Capturamos los valores para pasarlos al listView
             objContado.numVenta = txtNroVenta.Text;
+            //objContado.fecha = txtFecha.Text;
             objContado.fecha = Convert.ToDateTime(txtFecha.Text);
             objContado.monto = double.Parse(txtMonto.Text);
 
@@ -65,7 +66,7 @@ namespace ElectraSAC
         {
             //Mostramos los datos al LVr
             ListViewItem fila = new ListViewItem(objContado.numVenta);
-            fila.SubItems.Add(objContado.fecha.ToString());
+            fila.SubItems.Add(objContado.fecha.ToString("d"));
             fila.SubItems.Add(objContado.monto.ToString("0.00"));
             fila.SubItems.Add(objContado.calculaDescuento().ToString("0.00"));
             fila.SubItems.Add(objContado.calculaNeto().ToString("0.00"));
@@ -83,7 +84,7 @@ namespace ElectraSAC
 
         private void generarFecha()
         {
-            txtFecha.Text = DateTime.Now.ToString("dd/mm/yyyy");
+            txtFecha.Text = DateTime.Now.ToString("d");
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
