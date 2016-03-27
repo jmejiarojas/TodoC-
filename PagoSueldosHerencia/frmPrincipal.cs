@@ -64,6 +64,7 @@ namespace PagoSueldosHerencia
                 generarCodigo();
                 limpiarControles();
             }
+
         }
 
         private void limpiarControles()
@@ -93,5 +94,6 @@ namespace PagoSueldosHerencia
             if (r == DialogResult.Yes)
                 this.Close();
         }
+
     }
 }

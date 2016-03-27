@@ -7,3 +7,4 @@ C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHer
 C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.csproj.GenerateResource.Cache
 C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.exe
 C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.pdb
+C:\VideoClases\SolucionTotal_Videos\PagoSueldosHerencia\obj\Debug\PagoSueldosHerencia.frmEmpleadosComision.resources
