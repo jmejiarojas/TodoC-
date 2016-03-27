@@ -86,6 +86,7 @@ namespace PagoSueldosHerencia
             {
                 this.Close();
             }
+   
         }
     }
 }

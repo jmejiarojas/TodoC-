@@ -1,0 +1,9 @@
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\bin\Debug\ElectraSAC.exe.config
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\bin\Debug\ElectraSAC.exe
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\bin\Debug\ElectraSAC.pdb
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.frmContado.resources
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.Properties.Resources.resources
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.csproj.GenerateResource.Cache
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.exe
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.pdb
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.csprojResolveAssemblyReference.cache
