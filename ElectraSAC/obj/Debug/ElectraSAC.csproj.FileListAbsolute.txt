@@ -7,3 +7,5 @@ C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.csproj.Gener
 C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.exe
 C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.pdb
 C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.frmCredito.resources
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.csprojResolveAssemblyReference.cache
+C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.frmPrincipal.resources
