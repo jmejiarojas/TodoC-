@@ -12,3 +12,7 @@ c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Vent
 c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.csproj.GenerateResource.Cache
 c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.exe
 c:\users\usuario\documents\visual studio 2015\Projects\SolucionTotal_Videos\Ventas\obj\Debug\Ventas.pdb
+C:\segunda prueba\todoCSharp\Ventas\bin\Debug\Ventas.exe.config
+C:\segunda prueba\todoCSharp\Ventas\obj\Debug\Interop.WMPLib.dll
+C:\segunda prueba\todoCSharp\Ventas\obj\Debug\AxInterop.WMPLib.dll
+C:\segunda prueba\todoCSharp\Ventas\obj\Debug\Ventas.csproj.ResolveComReference.cache
