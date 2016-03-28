@@ -102,17 +102,19 @@
             // 
             // btnProcesar
             // 
+            this.btnProcesar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProcesar.Location = new System.Drawing.Point(36, 133);
             this.btnProcesar.Name = "btnProcesar";
-            this.btnProcesar.Size = new System.Drawing.Size(75, 23);
+            this.btnProcesar.Size = new System.Drawing.Size(99, 23);
             this.btnProcesar.TabIndex = 3;
             this.btnProcesar.Text = "PROCESAR";
+            this.btnProcesar.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnProcesar.UseVisualStyleBackColor = true;
             this.btnProcesar.Click += new System.EventHandler(this.btnProcesar_Click);
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(145, 133);
+            this.btnLimpiar.Location = new System.Drawing.Point(236, 133);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpiar.TabIndex = 3;
