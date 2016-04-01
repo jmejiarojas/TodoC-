@@ -1,6 +1,6 @@
 ﻿namespace pjMantenimientoClientes
 {
-    partial class Form1
+    partial class frmMantenimiento
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMantenimiento));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tsAgregar = new System.Windows.Forms.ToolStripButton();
             this.tsBuscar = new System.Windows.Forms.ToolStripButton();
@@ -45,7 +45,7 @@
             this.txtNombres = new System.Windows.Forms.TextBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtCorreo = new System.Windows.Forms.TextBox();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvR = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -75,6 +75,7 @@
             this.tsAgregar.Name = "tsAgregar";
             this.tsAgregar.Size = new System.Drawing.Size(69, 22);
             this.tsAgregar.Text = "Agregar";
+            this.tsAgregar.Click += new System.EventHandler(this.tsAgregar_Click);
             // 
             // tsBuscar
             // 
@@ -190,19 +191,20 @@
             this.txtCorreo.Size = new System.Drawing.Size(158, 20);
             this.txtCorreo.TabIndex = 3;
             // 
-            // listView1
+            // lvR
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.lvR.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
-            this.listView1.Location = new System.Drawing.Point(12, 214);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(468, 159);
-            this.listView1.TabIndex = 4;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.lvR.GridLines = true;
+            this.lvR.Location = new System.Drawing.Point(12, 214);
+            this.lvR.Name = "lvR";
+            this.lvR.Size = new System.Drawing.Size(468, 159);
+            this.lvR.TabIndex = 4;
+            this.lvR.UseCompatibleStateImageBehavior = false;
+            this.lvR.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
@@ -212,7 +214,7 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Cliente";
-            this.columnHeader2.Width = 116;
+            this.columnHeader2.Width = 127;
             // 
             // columnHeader3
             // 
@@ -224,12 +226,12 @@
             this.columnHeader4.Text = "Correo";
             this.columnHeader4.Width = 159;
             // 
-            // Form1
+            // frmMantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(498, 427);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.lvR);
             this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.txtNombres);
@@ -240,8 +242,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.toolStrip1);
-            this.Name = "Form1";
+            this.Name = "frmMantenimiento";
             this.Text = "Mantenimiento";
+            this.Load += new System.EventHandler(this.frmMantenimiento_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -267,7 +270,7 @@
         private System.Windows.Forms.TextBox txtNombres;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.TextBox txtCorreo;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView lvR;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
