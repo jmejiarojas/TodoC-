@@ -1,0 +1,9 @@
+C:\GitHub\todoCSharp\pjMantenimientoClientes\bin\Debug\pjMantenimientoClientes.exe.config
+C:\GitHub\todoCSharp\pjMantenimientoClientes\bin\Debug\pjMantenimientoClientes.exe
+C:\GitHub\todoCSharp\pjMantenimientoClientes\bin\Debug\pjMantenimientoClientes.pdb
+C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.csprojResolveAssemblyReference.cache
+C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.Form1.resources
+C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.Properties.Resources.resources
+C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.csproj.GenerateResource.Cache
+C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.exe
+C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.pdb

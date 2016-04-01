@@ -9,3 +9,14 @@ C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.pdb
 C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.frmCredito.resources
 C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.csprojResolveAssemblyReference.cache
 C:\VideoClases\SolucionTotal_Videos\ElectraSAC\obj\Debug\ElectraSAC.frmPrincipal.resources
+C:\GitHub\todoCSharp\ElectraSAC\bin\Debug\ElectraSAC.exe.config
+C:\GitHub\todoCSharp\ElectraSAC\bin\Debug\ElectraSAC.exe
+C:\GitHub\todoCSharp\ElectraSAC\bin\Debug\ElectraSAC.pdb
+C:\GitHub\todoCSharp\ElectraSAC\obj\Debug\ElectraSAC.csprojResolveAssemblyReference.cache
+C:\GitHub\todoCSharp\ElectraSAC\obj\Debug\ElectraSAC.frmContado.resources
+C:\GitHub\todoCSharp\ElectraSAC\obj\Debug\ElectraSAC.frmCredito.resources
+C:\GitHub\todoCSharp\ElectraSAC\obj\Debug\ElectraSAC.frmPrincipal.resources
+C:\GitHub\todoCSharp\ElectraSAC\obj\Debug\ElectraSAC.Properties.Resources.resources
+C:\GitHub\todoCSharp\ElectraSAC\obj\Debug\ElectraSAC.csproj.GenerateResource.Cache
+C:\GitHub\todoCSharp\ElectraSAC\obj\Debug\ElectraSAC.exe
+C:\GitHub\todoCSharp\ElectraSAC\obj\Debug\ElectraSAC.pdb
