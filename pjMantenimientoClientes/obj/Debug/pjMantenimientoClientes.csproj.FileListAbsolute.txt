@@ -7,3 +7,12 @@ C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.c
 C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.exe
 C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.pdb
 C:\GitHub\todoCSharp\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.frmMantenimiento.resources
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\bin\Debug\pjMantenimientoClientes.exe.config
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.exe
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.pdb
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\bin\Debug\pjMantenimientoClientes.exe
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\bin\Debug\pjMantenimientoClientes.pdb
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.csprojResolveAssemblyReference.cache
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.frmMantenimiento.resources
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.Properties.Resources.resources
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.csproj.GenerateResource.Cache

@@ -30,7 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMantenimiento));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.tsAgregar = new System.Windows.Forms.ToolStripButton();
+            this.tsNuevo = new System.Windows.Forms.ToolStripButton();
+            this.tsGrabar = new System.Windows.Forms.ToolStripButton();
             this.tsBuscar = new System.Windows.Forms.ToolStripButton();
             this.tsModificar = new System.Windows.Forms.ToolStripButton();
             this.tsEliminar = new System.Windows.Forms.ToolStripButton();
@@ -41,22 +42,29 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblCodigo = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtNombres = new System.Windows.Forms.TextBox();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.lvR = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cboCategoria = new System.Windows.Forms.ComboBox();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.txtStock = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStrip1
             // 
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsAgregar,
+            this.tsNuevo,
+            this.tsGrabar,
             this.tsBuscar,
             this.tsModificar,
             this.tsEliminar,
@@ -64,18 +72,27 @@
             this.tsSalir});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(498, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(617, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // tsAgregar
+            // tsNuevo
             // 
-            this.tsAgregar.Image = ((System.Drawing.Image)(resources.GetObject("tsAgregar.Image")));
-            this.tsAgregar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsAgregar.Name = "tsAgregar";
-            this.tsAgregar.Size = new System.Drawing.Size(69, 22);
-            this.tsAgregar.Text = "Agregar";
-            this.tsAgregar.Click += new System.EventHandler(this.tsAgregar_Click);
+            this.tsNuevo.Image = ((System.Drawing.Image)(resources.GetObject("tsNuevo.Image")));
+            this.tsNuevo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsNuevo.Name = "tsNuevo";
+            this.tsNuevo.Size = new System.Drawing.Size(62, 22);
+            this.tsNuevo.Text = "Nuevo";
+            this.tsNuevo.Click += new System.EventHandler(this.tsNuevo_Click);
+            // 
+            // tsGrabar
+            // 
+            this.tsGrabar.Image = ((System.Drawing.Image)(resources.GetObject("tsGrabar.Image")));
+            this.tsGrabar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsGrabar.Name = "tsGrabar";
+            this.tsGrabar.Size = new System.Drawing.Size(62, 22);
+            this.tsGrabar.Text = "Grabar";
+            this.tsGrabar.Click += new System.EventHandler(this.tsAgregar_Click);
             // 
             // tsBuscar
             // 
@@ -92,6 +109,7 @@
             this.tsModificar.Name = "tsModificar";
             this.tsModificar.Size = new System.Drawing.Size(78, 22);
             this.tsModificar.Text = "Modificar";
+            this.tsModificar.Click += new System.EventHandler(this.tsModificar_Click);
             // 
             // tsEliminar
             // 
@@ -100,6 +118,7 @@
             this.tsEliminar.Name = "tsEliminar";
             this.tsEliminar.Size = new System.Drawing.Size(70, 22);
             this.tsEliminar.Text = "Eliminar";
+            this.tsEliminar.Click += new System.EventHandler(this.tsEliminar_Click);
             // 
             // toolStripSeparator1
             // 
@@ -113,16 +132,17 @@
             this.tsSalir.Name = "tsSalir";
             this.tsSalir.Size = new System.Drawing.Size(49, 22);
             this.tsSalir.Text = "Salir";
+            this.tsSalir.Click += new System.EventHandler(this.tsSalir_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(78, 49);
+            this.label1.Location = new System.Drawing.Point(132, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(281, 18);
+            this.label1.Size = new System.Drawing.Size(284, 18);
             this.label1.TabIndex = 1;
-            this.label1.Text = "REGISTRO DE NUEVOS CLIENTES";
+            this.label1.Text = "MANTENIMIENTO DE PRODUCTOS";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -139,57 +159,34 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 130);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Nombres";
+            this.label3.Text = "Descripción";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 168);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 13);
+            this.label4.Size = new System.Drawing.Size(54, 13);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Teléfono";
+            this.label4.Text = "Categoría";
             // 
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(119, 96);
+            this.lblCodigo.Location = new System.Drawing.Point(78, 96);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(35, 13);
+            this.lblCodigo.Size = new System.Drawing.Size(50, 13);
             this.lblCodigo.TabIndex = 1;
-            this.lblCodigo.Text = "label1";
+            this.lblCodigo.Text = "lblCodigo";
             // 
-            // label6
+            // txtDescripcion
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(265, 168);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Correo";
-            // 
-            // txtNombres
-            // 
-            this.txtNombres.Location = new System.Drawing.Point(81, 123);
-            this.txtNombres.Name = "txtNombres";
-            this.txtNombres.Size = new System.Drawing.Size(399, 20);
-            this.txtNombres.TabIndex = 2;
-            // 
-            // txtTelefono
-            // 
-            this.txtTelefono.Location = new System.Drawing.Point(81, 161);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(148, 20);
-            this.txtTelefono.TabIndex = 3;
-            // 
-            // txtCorreo
-            // 
-            this.txtCorreo.Location = new System.Drawing.Point(322, 161);
-            this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(158, 20);
-            this.txtCorreo.TabIndex = 3;
+            this.txtDescripcion.Location = new System.Drawing.Point(81, 123);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(399, 20);
+            this.txtDescripcion.TabIndex = 2;
             // 
             // lvR
             // 
@@ -197,14 +194,17 @@
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
-            this.columnHeader4});
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6});
             this.lvR.GridLines = true;
-            this.lvR.Location = new System.Drawing.Point(12, 214);
+            this.lvR.Location = new System.Drawing.Point(12, 253);
             this.lvR.Name = "lvR";
-            this.lvR.Size = new System.Drawing.Size(468, 159);
+            this.lvR.Size = new System.Drawing.Size(579, 147);
             this.lvR.TabIndex = 4;
             this.lvR.UseCompatibleStateImageBehavior = false;
             this.lvR.View = System.Windows.Forms.View.Details;
+            this.lvR.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lvR_MouseDoubleClick);
             // 
             // columnHeader1
             // 
@@ -213,29 +213,99 @@
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Cliente";
+            this.columnHeader2.Text = "Descripción";
             this.columnHeader2.Width = 127;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Teléfono";
+            this.columnHeader3.Text = "Categoría";
             this.columnHeader3.Width = 96;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Correo";
+            this.columnHeader4.Text = "Fecha Venc.";
             this.columnHeader4.Width = 159;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Stock";
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Precio";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(17, 204);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(37, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Precio";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(221, 168);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 13);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Fecha Venc.";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(445, 168);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Stock";
+            // 
+            // cboCategoria
+            // 
+            this.cboCategoria.FormattingEnabled = true;
+            this.cboCategoria.Location = new System.Drawing.Point(81, 165);
+            this.cboCategoria.Name = "cboCategoria";
+            this.cboCategoria.Size = new System.Drawing.Size(121, 21);
+            this.cboCategoria.TabIndex = 8;
+            // 
+            // dtpFecha
+            // 
+            this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFecha.Location = new System.Drawing.Point(295, 162);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(121, 20);
+            this.dtpFecha.TabIndex = 9;
+            // 
+            // txtStock
+            // 
+            this.txtStock.Location = new System.Drawing.Point(491, 161);
+            this.txtStock.Name = "txtStock";
+            this.txtStock.Size = new System.Drawing.Size(100, 20);
+            this.txtStock.TabIndex = 10;
+            this.txtStock.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStock_KeyPress);
+            // 
+            // txtPrecio
+            // 
+            this.txtPrecio.Location = new System.Drawing.Point(81, 197);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(100, 20);
+            this.txtPrecio.TabIndex = 11;
             // 
             // frmMantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 427);
-            this.Controls.Add(this.lvR);
-            this.Controls.Add(this.txtCorreo);
-            this.Controls.Add(this.txtTelefono);
-            this.Controls.Add(this.txtNombres);
+            this.ClientSize = new System.Drawing.Size(617, 427);
+            this.Controls.Add(this.txtPrecio);
+            this.Controls.Add(this.txtStock);
+            this.Controls.Add(this.dtpFecha);
+            this.Controls.Add(this.cboCategoria);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lvR);
+            this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblCodigo);
@@ -255,7 +325,7 @@
         #endregion
 
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton tsAgregar;
+        private System.Windows.Forms.ToolStripButton tsGrabar;
         private System.Windows.Forms.ToolStripButton tsBuscar;
         private System.Windows.Forms.ToolStripButton tsModificar;
         private System.Windows.Forms.ToolStripButton tsEliminar;
@@ -266,15 +336,22 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblCodigo;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtNombres;
-        private System.Windows.Forms.TextBox txtTelefono;
-        private System.Windows.Forms.TextBox txtCorreo;
+        private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.ListView lvR;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ToolStripButton tsNuevo;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cboCategoria;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
+        private System.Windows.Forms.TextBox txtStock;
+        private System.Windows.Forms.TextBox txtPrecio;
     }
 }
 

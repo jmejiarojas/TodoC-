@@ -1,0 +1,9 @@
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\bin\Debug\pjMantenimientoClientes.exe.config
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\bin\Debug\pjMantenimientoClientes.exe
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\bin\Debug\pjMantenimientoClientes.pdb
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimiento.csprojResolveAssemblyReference.cache
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.frmMantenimiento.resources
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.Properties.Resources.resources
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimiento.csproj.GenerateResource.Cache
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.exe
+C:\VideoClases\SolucionTotal_Videos\pjMantenimientoClientes\obj\Debug\pjMantenimientoClientes.pdb

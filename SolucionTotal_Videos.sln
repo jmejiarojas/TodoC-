@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagoSueldosHerencia", "Pago
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectraSAC", "ElectraSAC\ElectraSAC.csproj", "{A360A561-0EE3-4C59-B2C1-21B008A13F38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pjMantenimientoClientes", "pjMantenimientoClientes\pjMantenimientoClientes.csproj", "{7FCA011A-1A59-4108-BA62-61E706C66E25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pjMantenimiento", "pjMantenimientoClientes\pjMantenimiento.csproj", "{7FCA011A-1A59-4108-BA62-61E706C66E25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
