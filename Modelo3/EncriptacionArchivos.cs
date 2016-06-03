@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security.Cryptography;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Modelo3
 {
@@ -38,11 +37,6 @@ namespace Modelo3
             return salida;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            txtCifrado.Text = Encriptar(txtCadena.Text);
-        }
-
         private string Encriptar(string cadena)
         {
             String encriptado = "";
@@ -52,5 +46,12 @@ namespace Modelo3
             encriptado = Convert.ToBase64String(bytEncriptado);
             return encriptado;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtCifrado.Text = Encriptar(txtCadena.Text);
+        }
+
+        
     }
 }

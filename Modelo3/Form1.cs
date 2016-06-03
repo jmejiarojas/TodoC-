@@ -28,5 +28,11 @@ namespace Modelo3
             EncriptacionArchivos obj2 = new EncriptacionArchivos();
             obj2.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Reflection obj3 = new Reflection();
+            obj3.Show();
+        }
     }
 }
