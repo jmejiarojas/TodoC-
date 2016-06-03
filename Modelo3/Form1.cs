@@ -22,5 +22,11 @@ namespace Modelo3
             SerializacionXML obj1 = new SerializacionXML();
             obj1.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            EncriptacionArchivos obj2 = new EncriptacionArchivos();
+            obj2.Show();
+        }
     }
 }
